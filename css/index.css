@@ -102,13 +102,12 @@ color: black;
 }
 @media  screen and (min-width:414px) and (max-width:1024px) {
     #title {
-        width: 100%;
+        width: 93%;
         align-items: center;
         display: flex;
         flex-direction: column;
         position: absolute;
         top: 10px;
-    
     }
     #sub-text {
         text-align: center;
@@ -125,8 +124,9 @@ color: black;
         position: relative;
         left: 40px;
     }
-}
+} 
 @media  screen and (max-width:414px) {
+
     .form-items {
         border: 1px solid #DDDFE2;
         color: #90949C;
@@ -200,4 +200,21 @@ color: black;
         font-size: 18px;
         font-family: sans-serif;
     }
-}
+} 
+/* @media screen and (max-width: 768px) {
+    #heading {
+        font-size: 36px;
+    }
+    #sub-text {
+        font-size: 16px;
+    }
+    .form-items,
+    #log,
+    #forgot,
+    #button {
+        font-size: 14px;
+    }
+    #page {
+        font-size: 12px;
+    }
+} */
